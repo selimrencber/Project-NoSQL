@@ -21,7 +21,7 @@ namespace DAL
 
         // Ticket model class moet nog aangemaakt worden, moet precies het zelfde als hoe alles in de json docs komt, dan werkt deze functie automatisch
         // de "Collection moet aangepast worden naar de naam van aan te maken collection"
-        /* public List<Ticket> GetAllTickets()
+        public List<Ticket> GetAllTickets()
         {
             return database.GetCollection<Ticket>("Collection").Find(new BsonDocument()).ToList();
         }
@@ -30,7 +30,7 @@ namespace DAL
         {
             var filter = Builders<Ticket>.Filter.Eq("ID", ticketID);
             return database.GetCollection<Ticket>("Les2").Find(filter).FirstOrDefault();
-        } */
+        }
         //test voor de 2de keer 
     }
 
